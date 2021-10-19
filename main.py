@@ -23,7 +23,7 @@ async def start(client: Pr0fess0r_99, update):
                     ),
                 InlineKeyboardButton
                     (
-                         "💡Open Source", url="https://github.com/{link}" # LuciferMoringStarDevil/Auto--Wellcom-bot
+                         "💡Open Source", url="https://github.com/{link}" # PR0FESS0R-99/Auto-Welcome-Bot
                     )
             ],   
             [
