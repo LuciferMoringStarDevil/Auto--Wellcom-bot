@@ -60,8 +60,9 @@ async def admin(bot: Pr0fess0r_99, update):
             [
                 InlineKeyboardButton
                     (
-                        "🎬 For Movie 🎬", url=f"https://t.me/ADMOVEIAD"
+                        "💫 DEPLOY NOW 💫", url=f"https://heroku.com/deploy?template=https://github.com/{run}/tree/main"
                     )
+            ]
         ]
     )
     if update.from_user.id not in OWNER_ID:
@@ -79,7 +80,7 @@ async def auto_welcome(bot: Pr0fess0r_99, msg: Message):
     id = msg.from_user.id
     group_name = msg.chat.title
     group_username = msg.chat.username
-    welcome_text = f"👋Hey {mention}, Welcome To {group_name}\n\n Developed By @Lucifer_Devil_AD"
+    welcome_text = f"👋Hey {mention}, Welcome To {group_name}\n\n Developed By @AD_BOTZ"
     WELCOME_TEXT = os.environ.get("WELCOME_TEXT", welcome_text)
     print("Welcome Message Activate")
     await msg.reply_text(text=WELCOME_TEXT.format(
@@ -97,6 +98,6 @@ async def auto_welcome(bot: Pr0fess0r_99, msg: Message):
 
 print("""Auto Welcome Bot Started
 
-Maintained By @Lucifer_Devil_AD""")
+Maintained By @AD_BOTZ""")
 
 Pr0fess0r_99.run()
